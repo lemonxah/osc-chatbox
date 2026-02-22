@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=OSC Chatbox
+Comment=VRChat OSC Chatbox companion for Linux
+Exec=osc-chatbox
+Icon=osc-chatbox
+Terminal=false
+Type=Application
+Categories=Utility;Network;
+Keywords=VRChat;OSC;Chatbox;VR;
