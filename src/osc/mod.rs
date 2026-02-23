@@ -22,7 +22,7 @@ impl OscClient {
         send_immediately: bool,
         play_sound: bool,
     ) -> Result<(), Box<dyn std::error::Error>> {
-        let mut truncated: String = text.chars().take(144).collect();
+        let mut truncated: String = text.chars().take(142).collect();
         truncated.push_str("\u{0003}\u{001F}");
 
         let msg = OscPacket::Message(OscMessage {
